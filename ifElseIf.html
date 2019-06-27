@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ifElseIf</title>
+</head>
+<body>
+<script>
+    let nameAdmin = prompt("Enter the Admin name");
+
+    if(nameAdmin == "Admin"){
+        let passWord = prompt("Enter the password");
+        if(passWord == "TheMaster"){
+            alert("welcome")
+            } else if(passWord == ''){
+            alert("canceled");
+        } else {
+            alert("Wrong password")
+        }
+    } else if(nameAdmin == ''){
+        alert("canceled");
+    } else {
+        alert("I don't know you");
+    }
+
+
+
+</script>
+</body>
+</html>
